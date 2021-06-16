@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Hybrid3'
-copyright = '2021, Jannik Eisenlohr'
+copyright = 'HybriD3 Team'
 author = 'Jannik Eisenlohr'
 
 
