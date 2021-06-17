@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>IUPAC Naming Convention &mdash; Hybrid3  documentation</title>
+  <title>Compound names &mdash; Hybrid3  documentation</title>
   
 
   
@@ -39,7 +39,8 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Welcome to the HybriD3 documentation!" href="index.html" /> 
+    <link rel="next" title="Definition of a “material”" href="material.html" />
+    <link rel="prev" title="Welcome to the documentation of the HybriD3 database." href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -85,7 +86,14 @@
             
             
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">IUPAC Naming Convention</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Compound names</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#naming-a-compound">Naming a compound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#main-compound-name">Main compound name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#iupac-name">IUPAC name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alternate-names">Alternate Names</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material.html">Definition of a “material”</a></li>
 </ul>
 
             
@@ -134,7 +142,7 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>IUPAC Naming Convention</li>
+      <li>Compound names</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -153,9 +161,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="iupac-naming-convention">
-<h1>IUPAC Naming Convention<a class="headerlink" href="#iupac-naming-convention" title="Permalink to this headline">¶</a></h1>
-<p>Herein we will layout the conventions used in constructing our IUPAC names.</p>
+  <div class="section" id="compound-names">
+<h1>Compound names<a class="headerlink" href="#compound-names" title="Permalink to this headline">¶</a></h1>
+<p>There are several ways in which one can define the name of a given material and/or chemical compound. In the HybriD<sup>3</sup> database, our objective is to support as many searchable alternative names as possible for a given compound, mapping (where possible) community conventions.</p>
+<div class="section" id="naming-a-compound">
+<h2>Naming a compound<a class="headerlink" href="#naming-a-compound" title="Permalink to this headline">¶</a></h2>
+<p>The HybdriD<sup>3</sup> database supports multiple names for the same compound, reflecting the fact that there are multiple naming conventions in the chemical and materials science literature. Some of them overlap, others may not even be unique between different compounds. Our core objectives are to provide names that are, at least in their combination, unique, but even more importantly to make a given compound findable by users who are potentially using different conventions.</p>
+<p>The present version of the database (June 2021 and previously) uses short compound names that are inspired by chemical formulae but that essentially reflect abbreviations commonly used in the perovskite literature.</p>
+<p>For instance, the 3D hybrid perovskite methylammonium lead iodide appears first under the name of “MAPbI3”, using the frequent abbreviation “MA” for the methylammonium cation.</p>
+<p>In a separate field, alternate names for the same compound are provided, e.g., “MAPI” (short form used in the community), “(MA)PbI3”, “CH3NH3PbI3” or, indeed, “Methylammonium lead iodide”. These are not the only possible names for methylammonium lead iodide, but will give a user a reasonable chance to identify the compound in question with specificity.</p>
+<p>We are, of course, aware of more formal naming conventions, most importantly the IUPAC convention that covers organic substances. In detail, however, this convention can deviate from practical conventions used uniformly through our community. For example, methylammonium becomes methanaminium; but additionally, the -NH3 group will also be named “azanium” in other contexts.</p>
+<p>However, the “MAPbI3” convention for the “main” compound name quickly becomes ambiguous for more complex compounds. Going forward (post June 2021) and for the time being, we therefore will adopt the following strategy for naming compounds and for providing alternate names:</p>
+</div>
+<div class="section" id="main-compound-name">
+<h2>Main compound name<a class="headerlink" href="#main-compound-name" title="Permalink to this headline">¶</a></h2>
+<p>A commonly accepted but chemically sensible verbal name for a compound, such as “Methylammonium lead iodide”. This name does not express the full stoichiometry of the compound (for example, this particular compound is a triiodide) but it provides sufficient name recognition in the community to identify the compound in question.</p>
+</div>
+<div class="section" id="iupac-name">
+<h2>IUPAC name<a class="headerlink" href="#iupac-name" title="Permalink to this headline">¶</a></h2>
+<p>A field that adds a IUPAC conforming name especially for complex organic cations to the best of our present abilities. For complex molecules, detailed IUPAC names are not simple and, as we understand them, also not always unique. We welcome feedback on particular name choices, should they seem ambiguous or need correction. Thank you!</p>
+</div>
+<div class="section" id="alternate-names">
+<h2>Alternate Names<a class="headerlink" href="#alternate-names" title="Permalink to this headline">¶</a></h2>
+<p>This is an entry that lists as many alternate compound names for a given compound as possible, aiming to make the material in question findable by a search while avoiding to include ambiguous names that would appear in too many unrelated searches. In practice, the web-based search functionality in our data base simply uses sub-strings of names and alternate names as search expressions.</p>
+</div>
 </div>
 
 
@@ -164,7 +193,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to the HybriD3 documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="material.html" class="btn btn-neutral float-right" title="Definition of a “material”" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to the documentation of the HybriD3 database." accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
