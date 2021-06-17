@@ -19,7 +19,7 @@
 
 project = 'Hybrid3'
 copyright = 'HybriD3 Team'
-author = 'Jannik Eisenlohr'
+author = 'Volker Blum, Jannik Eisenlohr'
 
 
 # -- General configuration ---------------------------------------------------
