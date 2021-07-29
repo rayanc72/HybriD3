@@ -43,4 +43,4 @@ Alternate Names
 This is an entry that lists as many alternate compound names for a given compound as possible, aiming to make the material in question findable by a search while avoiding to include ambiguous names that would appear in too many unrelated searches. In practice, the web-based search functionality in our data base simply uses sub-strings of names and alternate names as search expressions.
 
 
-_IUPAC Blue Book: https://www.qmul.ac.uk/sbcs/iupac/BlueBook/index.html
+.. _IUPAC Blue Book: https://www.qmul.ac.uk/sbcs/iupac/BlueBook/index.html
