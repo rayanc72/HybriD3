@@ -35,7 +35,7 @@ A field that adds a IUPAC conforming name especially for complex organic cations
 A particularly relevant question in the `IUPAC Blue Book`_ at the time of writing pertains to the naming of the ionic side chain NH3\ :sup:`+`, commonly named ammonium. The IUPAC Blue book names the methylammoium (CH3NH3\ :sup:`+`) cation "methanaminium". However, in other contexts, the NH3\ :sup:`+` side chain is termed "azanium" (example), leading to some ambiguity in the naming schemes for related molecular ion species. We did notice that the (NIST) database of molecular species appears to adopt the term "aminium" instead of "azanium" and we follow the same convention here for IUPAC style names:
 
 .. list-table:: IUPAC Examples
-   :widths: 75 75 75 
+   :widths: 100 100 100 
    :header-rows: 1
 
    * - (CH3)4N\ :sup:`+`
