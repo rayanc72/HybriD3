@@ -38,9 +38,9 @@ A particularly relevant question in the `IUPAC Blue Book`_ at the time of writin
    :widths: 75 75 75 
    :header-rows: 1
 
-   * - Heading (CH3)4N\ :sup:`+`
-     - Heading CH3NH3\ :sup:`+` 
-     - Heading C16H24N2\ :sup:`+`
+   * - (CH3)4N\ :sup:`+`
+     - CH3NH3\ :sup:`+` 
+     - C16H24N2\ :sup:`+`
    * - tetramethylammonium
      - methylammonium 
      - phenethylammonium
