@@ -32,7 +32,7 @@ IUPAC name
 
 A field that adds a IUPAC conforming name especially for complex organic cations to the best of our present abilities. For complex molecules, detailed IUPAC names are not simple and, as we understand them, also not always unique. We welcome feedback on particular name choices, should they seem ambiguous or need correction. Thank you!
 
-A particularly relevant question in the `IUPAC Blue Book`_ at the time of writing pertains to the naming of the ionic side chain NH3\ :sup:`+`, commonly named ammonium. In short (Blue Book rules P-73.1.1.1, P-73.1.1.2, P-73.1.2), ammonium is allowed but the preferred name is either azanium or aminium. For the IUPAC naming conventions, we therefore use azanium, but aminium could be used as well.
+A particularly relevant question in the `IUPAC Blue Book`_ at the time of writing pertains to the naming of the ionic side chain NH3\ :sup:`+`, commonly named ammonium. In short (Blue Book rules P-73.1.1.1, P-73.1.1.2, P-73.1.2), ammonium is allowed but the preferred name is either azanium or aminium. As mentioned above, for the overall compound names, we prefer ammonium, which is more widely used in the hybrid organic-ionirganic semiconductor community in our experience. For the IUPAC naming conventions, we use azanium, but aminium could be used as well. Examples include:
 
 .. list-table::
    :widths: 100 100 100 
