@@ -67,6 +67,6 @@ A field that in practice this is the concatenation of the organic and inorganic 
 Organic Component
 -----------------
 
-The organic cation of a given material in standard Hill Notation (see Chemical Formula above) but ignoring multiplicity of these cations for example: Bis(methylammonium) copper bromide would have a Formula of C2H12N2CuBr4 but the organic component of CH6N. This makes the organic component search useful for identifying materials containing a specific cation. If a material has two or more different cations this field is a list of each cation for the same search capabilities.
+The organic cation of a given material in standard Hill Notation (see Chemical Formula above) but ignoring multiplicity of these cations for example: Bis(methylammonium) copper bromide would have a Formula of C2H12N2CuBr4 but an organic component of CH6N. This makes the organic component search useful for identifying materials containing a specific cation. If a material has two or more different cations this field is a list of each cation for the same search capabilities.
 
 .. _IUPAC Blue Book: https://www.qmul.ac.uk/sbcs/iupac/BlueBook/index.html
