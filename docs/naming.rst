@@ -57,5 +57,16 @@ Alternate Names
 
 This is an entry that lists as many alternate compound names for a given compound as possible, aiming to make the material in question findable by a search while avoiding to include ambiguous names that would appear in too many unrelated searches. In practice, the web-based search functionality in our data base simply uses sub-strings of names and alternate names as search expressions.
 
+-----------------
+Chemical Formula
+-----------------
+
+A field that in practice this is the concatenation of the organic and inorganic subcomponets of a material with the appropriate multiplicity for the organic component. The organic component is expressed in standard Hill Notation i.e. C\ :sub:`n`\H\ :sub:`m`\ABC... which is by design not unique. We aim to uniquely identify materials with IUPAC and compound names and instead use the Formula and organic fields as an easily standardizable for quick and broad searches of groups of compounds.
+
+-----------------
+Organic Component
+-----------------
+
+The organic cation of a given material in standard Hill Notation (see Chemical Formula above) but ignoring multiplicity of these cations for example: Bis(methylammonium) copper bromide would have a Formula of C2H12N2CuBr4 but and organic component of CH6N. This makes the organic component search useful for identifying materials conataining a specific cation.
 
 .. _IUPAC Blue Book: https://www.qmul.ac.uk/sbcs/iupac/BlueBook/index.html
