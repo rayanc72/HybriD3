@@ -61,12 +61,12 @@ This is an entry that lists as many alternate compound names for a given compoun
 Chemical Formula
 -----------------
 
-A field that in practice this is the concatenation of the organic and inorganic subcomponets of a material with the appropriate multiplicity for the organic component. The organic component is expressed in standard Hill Notation i.e. C\ :sub:`n`\H\ :sub:`m`\ABC... which is by design not unique. We aim to uniquely identify materials with IUPAC and compound names and instead use the Formula and organic fields as an easily standardizable for quick and broad searches of groups of compounds.
+A field that in practice this is the concatenation of the organic and inorganic subcomponents of a material with the appropriate multiplicity for the organic component. The organic component is expressed in standard Hill Notation i.e. C\ :sub:`n`\H\ :sub:`m`\ABC... which is by design not unique. We aim to uniquely identify materials with IUPAC and compound names and instead use the Formula and organic fields as an easily standardizable for quick and broad searches of groups of compounds.
 
 -----------------
 Organic Component
 -----------------
 
-The organic cation of a given material in standard Hill Notation (see Chemical Formula above) but ignoring multiplicity of these cations for example: Bis(methylammonium) copper bromide would have a Formula of C2H12N2CuBr4 but and organic component of CH6N. This makes the organic component search useful for identifying materials conataining a specific cation.
+The organic cation of a given material in standard Hill Notation (see Chemical Formula above) but ignoring multiplicity of these cations for example: Bis(methylammonium) copper bromide would have a Formula of C2H12N2CuBr4 but the organic component of CH6N. This makes the organic component search useful for identifying materials containing a specific cation. If a material has two or more different cations this field is a list of each cation for the same search capabilities.
 
 .. _IUPAC Blue Book: https://www.qmul.ac.uk/sbcs/iupac/BlueBook/index.html
