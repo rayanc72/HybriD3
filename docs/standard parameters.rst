@@ -7,3 +7,4 @@ Where possible, we attempt to indicate external experimental conditions such as 
 -----------------
 Temperature
 -----------------
+We use T = 298 K for "room temperature"
